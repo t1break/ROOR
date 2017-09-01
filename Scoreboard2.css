@@ -5,7 +5,12 @@
 .MFLLiveClock {
     color: #579ae6
 }
-
+.oddtablerow td {
+ border:0px;
+}
+.eventablerow td {
+    border:0px;
+}
 td.MFLPlayerName {
     font-size:13px;
 }
