@@ -9,7 +9,9 @@
 td.MFLPlayerName {
     font-size:13px;
 }
-
+#outerMFLScoreboardDiv .mobile-view {
+    width: 500px;
+}
 #MFLRoadTeamName img, #MFLHomeTeamName img {
     max-height: 100px;
 }
