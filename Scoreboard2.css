@@ -27,7 +27,8 @@
 
 .MFLMainScoreboard {
     background: #000;
-    border-color: rgba(30, 30, 30, 0.8)
+    border-color: rgba(30, 30, 30, 0.8);
+        width: 100%;
 }
 
 #MFLCenterTop {
