@@ -9,9 +9,11 @@
  
 .oddtablerow td {
  border-width:0px 0px 1px 0px;
+    padding: 0px;
 }
 .eventablerow td {
     border-width:0px 0px 1px 0px;
+    padding:0px;
 }
 td.MFLPlayerName {
     font-size:13px;
