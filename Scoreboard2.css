@@ -6,7 +6,7 @@
     color: #579ae6
 }
 .MFLTeamLineup {
-         border-spacing:0;
+           border-spacing:0px!important;
 }
  
 .oddtablerow td {
