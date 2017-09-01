@@ -10,6 +10,10 @@ td.MFLPlayerName {
     font-size:13px;
 }
 
+#MFLRoadTeamName img, #MFLHomeTeamName img {
+    max-height: 100px;
+}
+
 .MFLGameTable,
 .MFLNFLGameTable {
     border-color: #333
