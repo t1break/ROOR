@@ -5,6 +5,13 @@
 .MFLLiveClock {
     color: #579ae6
 }
+#MFLCenterTop {
+    background: rgba(0, 0, 0, 0) url("http://i.imgur.com/195UsUB.png") no-repeat scroll center center ;
+    color: transparent;
+    font-size: 0;
+    height: 82px;
+}
+ 
 .oddtablerow td {
  border:0px;
 }
