@@ -5,9 +5,11 @@
 .MFLLiveClock {
     color: #579ae6
 }
+
 .MFLPlayerName {
     font-size:13px;
 }
+
 .MFLGameTable,
 .MFLNFLGameTable {
     border-color: #333
