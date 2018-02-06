@@ -1272,8 +1272,8 @@ table.two_column_layout {
     margin: 0px;}
 div.col-md-6.col-lg-5 > div#league_logo.league_logo > div#logo > a > img {
      height: auto;
-     margin: 0px 0px -20px auto;
-     max-width: 100px;}}
+     margin: 0px 0px -30px auto;
+     max-width: 270px;}}
 
 
 @media (min-width: 768px) and (max-width: 1200px) {
