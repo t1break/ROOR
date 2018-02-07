@@ -1362,8 +1362,8 @@ div.col-md-6.col-lg-5 > div#league_logo.league_logo > div#logo > a > img {
 
  div#league_logo.league_logo > div#logo > a > img {
     height: auto;
-    margin: -20px auto;
-    max-width: 150px;} 
+    margin: 0px 0px -30px 0px;
+    max-width: 300px;} 
 
  div.col-md-12 > div#banner > a > img.img-responsive {
     margin: -15px auto 0px 0px;
@@ -1375,7 +1375,7 @@ div.col-md-6.col-lg-5 > div#league_logo.league_logo > div#logo > a > img {
 .leaguename {
     color: #ccc;
     font-family: "Oswald";}
-span.leaguename--sticks {
+span.leaguename--t1break {
     color: #ceb274;}
 span.leaguename--test {
     color: #444;font-size:;}
