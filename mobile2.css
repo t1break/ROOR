@@ -7,7 +7,12 @@
 @import url("https://cdn.rawgit.com/t1break/ROOR/d66c5d03/swipper.css");
 
 
-
+.awardtitle img {
+    display: block;
+    margin: auto;
+    max-height: 75px;
+    max-width: 52px;
+}
 
 td a, td a:link, td a:active, td a:visited, td a:focus {
     font-family: "Oswald",sans-serif;}
