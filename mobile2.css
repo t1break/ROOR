@@ -14,6 +14,10 @@
     max-width: 52px;
 }
 
+.awardtitle {
+    text-align: center;
+}
+
 td a, td a:link, td a:active, td a:visited, td a:focus {
     font-family: "Oswald",sans-serif;}
 
