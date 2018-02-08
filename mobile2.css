@@ -1,6 +1,6 @@
 /**** CSS  ****/
 @import url(http://fonts.googleapis.com/css?family=Oswald:400,300,700);
-@import url("https://cdn.rawgit.com/t1break/ROOR/26db6eb8/mROOR.css");
+@import url("https://cdn.rawgit.com/t1break/ROOR/f6275e60/mROOR.css");
 @import url("https://cdn.rawgit.com/t1break/ROOR/d66c5d03/MyLineup.css");
 @import url("https://cdn.rawgit.com/t1break/ROOR/3137d3e2/mobil.css");
 @import url("https://cdn.rawgit.com/t1break/ROOR/9c36c9dc/adblocker.css")
@@ -746,13 +746,14 @@ table.two_column_layout {
     width: 66.66666667%;
   }
   .col-sm-7 {
-    width: 58.33333333%;
+    width: 75%;
   }
   .col-sm-6 {
     width: 50%;
   }
+  
   .col-sm-5 {
-    width: 41.66666667%;
+    width: 25%;
   }
   .col-sm-4 {
     width: 33.33333333%;
@@ -1437,7 +1438,7 @@ span.leaguename--site {
 
 .container-footer {
      background: rgba(27, 27, 27, 0.9) none repeat scroll 0 0;
-     border-top: 8px solid rgba(42, 110, 187, 0.9) !important;
+     border-top: 8px solid rgba(206, 178, 116, 0.9) !important;
     margin-top: 24px;}
 
 
