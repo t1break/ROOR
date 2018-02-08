@@ -50,19 +50,19 @@ img.ava {
     width: 75px;
 }
 #fantasy_confidence_pool th:first-of-type, #nfl_survivor_pool th:first-of-type, #nfl_confidence_pool th:first-of-type, #power_rank th:first-of-type, #transactions td.rank + td, #weekly_summary th:first-of-type, #avg_draft_time th:first-of-type, #body_options_20 th:first-of-type {
-    width: 75px;
+    width: 150px;
 }
 #InvalidLineup .franchiseicon, #bbid_summary .franchiseicon, #trade_bait .franchiseicon, .playoffbracket .franchiseicon, #fantasy_recap .franchiseicon, #fantasy_preview .franchiseicon, #waiver_order .franchiseicon {
     width: 75px;
 }
 #InvalidLineup td:first-of-type, #bbid_summary th:first-of-type, #trade_bait th:first-of-type {
-    width: 75px;
+    width: 150px;
 }
 #league_chat .franchiseicon, #owner_activity .franchiseicon {
     width: 75px;
 }
 #league_chat th:first-of-type, #owner_activity th:first-of-type {
-    width: 75px;
+    width: 150px;
 }
 
 
@@ -88,7 +88,7 @@ img.ava {
     width: 75px;
 }
 #fantasy_confidence_pool th:first-of-type, #nfl_survivor_pool th:first-of-type, #nfl_confidence_pool th:first-of-type, #power_rank th:first-of-type, #transactions td.rank + td, #weekly_summary th:first-of-type, #avg_draft_time th:first-of-type, #body_options_20 th:first-of-type {
-    width: 75px;
+    width: 150px;
 }
 .defending-champ > a > .franchiseicon { height: auto; width: 100px; }
 }
@@ -1573,71 +1573,3 @@ table#livescoring_summary.homepagemodule.report > tbody > tr.oddtablerow > td > 
     cursor: pointer;color:#fff!important;text-decoration: underline!important;}
 #standings .fname {
     width: 300px;}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
