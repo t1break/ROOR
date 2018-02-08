@@ -1312,7 +1312,7 @@ body .plaque h4 {
 }
 
 #record_streaks td.year,#season_records td.year,#player_records td.year,#franchise_records td.year,#my_trophy_case td.year {
-     color: #3a85da;
+     color: #bcbcbc;
 }
 
 
@@ -1458,11 +1458,11 @@ caption.withfranchiseicon span {
 }
 
 .franchiselogo {
-    border: 0.5rem solid #282828;
+    border: 0;
     height: auto;
     margin: 0.625rem auto;
     max-width: 85%;
-    outline: 0.063rem solid #222;
+    outline: 0;
 }
 
 
@@ -2304,12 +2304,21 @@ th span[id*="showBench"] a:hover,th span[id*="hideBench"] a:hover,a[id*="showAss
 
 
 
-#myfantasyleague_tabs .myfantasyleague_tabmenu #homepagetabs li {display: table-cell;width: 1%;}
+/** #myfantasyleague_tabs .myfantasyleague_tabmenu #homepagetabs li {display: table-cell;width: 1%;} **/
 
 #myfantasyleague_tabs .myfantasyleague_tabmenu #homepagetabs li a {
-     display: block;
+    /** display: block;
      padding: 0px 2px;
-     white-space: nowrap;}
+     white-space: nowrap;} **/
+
+    font-size: 13px;
+    font-size: .813rem;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 0 .75rem;
+    height: 100%;
+    text-align: center;
+}
 
 div.toggle_tabs > table.report > tbody > tr > td > div.myfantasyleague_tabmenu {
      border-left: 0px none;
