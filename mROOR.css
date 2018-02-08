@@ -1010,7 +1010,7 @@ body .standingslogo {
 
 
 .newposition td, .newposition th {
-    border-top: 3px solid #2a6ebb !important;
+    border-top: 3px solid #ceb274 !important;
 }
 
 
@@ -1214,8 +1214,8 @@ span.reportnavigation a {
 }
 
 #championship_plaque h2 {
-     background: rgba(0, 0, 0, 0) url("https://i.imgur.com/WBQryg5.png") no-repeat scroll center center;
-     border: 0px none;
+     background: rgba(0, 0, 0, 0) url("https://i.imgur.com/WBQryg5.png") no-repeat scroll center center !important;
+     border: 0px none !important;
      text-indent: -9999px;
 }
 
@@ -1856,7 +1856,7 @@ tr.total th,tr.players_yet_to_play th,tr.players_currently_playing th,tr.player_
      font-size:15px;font-size:0.938rem;
      text-transform:uppercase;
      color:#fff;
-     border-top:4px solid #cccccc;border-top:0.250rem solid #2a6ebb;}
+     border-top:4px solid #cccccc;border-top:0.250rem solid #ceb274;}
 
 
 #body_live_scoring td.subtotal b,#body_live_scoring td.subtotal + td b{
@@ -1939,13 +1939,13 @@ table.scoresummary, table.h2hmatchups, table.report td.two_column_layout, table.
 }
 
 tr.total td {
-     background: #2a6ebb none repeat scroll 0px 0px;
+     background: #ceb274 none repeat scroll 0px 0px;
      color: #ffffff;
      font-size: 12pt;
 }
 
 tr.players_yet_to_play td {
-     background: #2a6ebb none repeat scroll 0px 0px;
+     background: #ceb274 none repeat scroll 0px 0px;
      color: #ffffff;
      font-size: 12pt;
 }
@@ -2405,66 +2405,3 @@ body#body_options_170 .container.page-wrapper form > table.report  td > select {
 img {
 image-rendering: -webkit-optimize-contrast;
 image-rendering: optimize-contrast;}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
