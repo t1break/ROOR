@@ -2289,7 +2289,7 @@ th span[id*="showBench"] a:hover,th span[id*="hideBench"] a:hover,a[id*="showAss
 /*  ROSTERS  */
 #custom_draftroom #rostertable td:first-of-type{text-align:center}
 /*  DRAFT CHAT  */
-#custom_draftroom .franchiseicon{width:100%;max-width:150px;height:auto}
+#custom_draftroom .franchiseicon{width:100%;max-width:75px;height:auto}
 /*  OWNER ACTIVITY MODULE  */
 #custom_draftroom #owner_activity td,#custom_draftroom #owner_activity th{text-align:left;}
 #custom_draftroom #avg_draft_time td:last-of-type,#custom_draftroom #avg_draft_time th:last-of-type{text-align:center}
