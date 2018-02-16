@@ -7,9 +7,7 @@
 @import url("https://cdn.rawgit.com/t1break/ROOR/d66c5d03/swipper.css");
 
 /** add-drop **/
-div#add_drop caption {
-	background-color:#5c7ab4!important;
-}
+
 div#add_drop .highlight {
 	background-color:green;
 }
