@@ -28,7 +28,7 @@ display:none;
 }
 #RGvideoWall {display:none;}
 
-#body_player table td div
+#body_player table div div
 { display:none; }
 
 
@@ -61,5 +61,5 @@ ins#aswift_0_anchor
 
 #body_view_news_article iframe, #body_view_news_article object, #body_view_news_article .report form, #body_view_news_article .report img {display: none;}
 
-#view_news_article .report div,#body_news_articles .report div {display:none;}
-
+td.hint {
+    color: #e5cd92!important;}
