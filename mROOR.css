@@ -584,8 +584,10 @@ th a:link:hover, th a:active:hover, th a:visited:hover,th.articlecaption a:hover
 }
 
 .oddtablerow {
-    background: #191919 none repeat scroll 0 0;
-    color: #aaa !important;
+  /*  background: #191919 none repeat scroll 0 0;
+    color: #aaa !important; */
+    background: #1e1e1e none repeat scroll 0 0;
+    color: #eee !important;
 }
 .eventablerow {
     background: #1e1e1e none repeat scroll 0 0;
