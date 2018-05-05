@@ -1460,7 +1460,7 @@ caption.withfranchiseicon span {
     border: 0;
     height: auto;
     margin: 0.625rem auto;
-    max-width: 85%;
+    max-width: 200px;
     outline: 0;
 }
 
