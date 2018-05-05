@@ -1,0 +1,1608 @@
+/**** CSS  ****/
+@import url(http://fonts.googleapis.com/css?family=Oswald:400,300,700);
+@import url("https://rawgit.com/t1break/ROOR/master/mROOR.css");
+@import url("https://cdn.rawgit.com/t1break/ROOR/d66c5d03/MyLineup.css");
+@import url("https://cdn.rawgit.com/t1break/ROOR/3137d3e2/mobil.css");
+@import url("https://rawgit.com/t1break/ROOR/master/adblocker.css")
+@import url("https://cdn.rawgit.com/t1break/ROOR/d66c5d03/swipper.css");
+
+/** add-drop **/
+
+div#add_drop .highlight {
+	background-color:green;
+}
+div#add_drop table#drop .highlight {
+	background-color:red;
+}
+div#add_drop td {
+
+	-moz-transition: none;
+    -webkit-transition: none;
+    -o-transition: color 0 ease-in;
+    transition: none;
+}
+div#add_drop td#add_name_field_id {
+	width:500px;
+	color:#00ff00;
+}
+div#add_drop td#drop_name_field_id {
+	color:red;
+}
+
+/** award **/
+.awardtitle img {
+    display: block;
+    margin: auto;
+    max-height: 75px;
+    max-width: 52px;
+}
+
+.awardtitle {
+    text-align: center;
+}
+
+td a, td a:link, td a:active, td a:visited, td a:focus {
+    font-family: "Oswald",sans-serif;}
+
+a:focus, a, a:link, a:active, a:visited, a:focus, th, th a, th a:link, th a:active, th a:visited, th a:focus, h1, td h1 a:link, td h1 a:active, td h1 a:visited, td h1 a:focus, h2, td h2 a:link, td h2 a:active, td h2 a:visited, td h2 a:focus, h3, td h3 a, td h3 a:link, td h3 a:active, td h3 a:visited, td h3 a:focus, h4, td h4 a, td h4 a:link, td h4 a:active, td h4 a:visited, td h4 a:focus, input[type="button"], input[type="submit"], .myfantasyleague_tabmenu, .myfantasyleague_menu, caption, caption a, caption a:link, caption a:active, caption a:visited, caption a:focus, .welcome, .welcome a, .welcome a:link, .welcome a:active, .welcome a:visited, .welcome a:focus, #MFLPlayerPopupLinks .popreport td a, #owner_activity td.franchisename, .myfantasyleague_tabmenu #homepagetabs li a, #vsubmenu, #vsubmenu li, #vsubmenu li a {
+    font-family: "Oswald",sans-serif;
+    font-weight: 400;
+    text-decoration: none!important;
+    text-transform: uppercase;}
+
+
+/**block mfl home messages**/
+.homepagemessage {display:none;}
+
+
+/** ICONS**/
+
+img.ava {
+    height: auto;
+    width: 200px;
+}
+
+.franchiseicon {
+    height: auto;
+    width: 75px;
+}
+#standings .franchiseicon {
+    width: 75px;
+}
+#standings .fname, #standings .ficon {
+    width: 75px;
+}
+#home #standings .franchiseicon, #roster .franchiseicon {
+    width: 75px;
+}
+#home #standings .fname, #home #standings .ficon {
+    width: 75px;
+}
+#fantasy_confidence_pool .franchiseicon, #nfl_survivor_pool .franchiseicon, #nfl_confidence_pool .franchiseicon, #power_rank .franchiseicon, #transactions .franchiseicon, #weekly_summary .franchiseicon, #avg_draft_time .franchiseicon, #body_options_20 .report .franchiseicon, #next_weeks_fantasy_schedule .franchiseicon {
+    width: 75px;
+}
+#fantasy_confidence_pool th:first-of-type, #nfl_survivor_pool th:first-of-type, #nfl_confidence_pool th:first-of-type, #power_rank th:first-of-type, #transactions td.rank + td, #weekly_summary th:first-of-type, #avg_draft_time th:first-of-type, #body_options_20 th:first-of-type {
+    width: 150px;
+}
+#InvalidLineup .franchiseicon, #bbid_summary .franchiseicon, #trade_bait .franchiseicon, .playoffbracket .franchiseicon, #fantasy_recap .franchiseicon, #fantasy_preview .franchiseicon, #waiver_order .franchiseicon {
+    width: 75px;
+}
+#InvalidLineup td:first-of-type, #bbid_summary th:first-of-type, #trade_bait th:first-of-type {
+    width: 150px;
+}
+#league_chat .franchiseicon, #owner_activity .franchiseicon {
+    width: 75px;
+}
+#league_chat th:first-of-type, #owner_activity th:first-of-type {
+    width: 150px;
+}
+
+
+
+@media only screen and (max-width: 35.5em) {
+.franchiseicon {
+    height: auto;
+    width: 75px;
+}
+#standings .franchiseicon {
+    width: 75px;
+}
+#standings .fname, #standings .ficon {
+    width: 75px;
+}
+#home #standings .franchiseicon, #roster .franchiseicon {
+    width: 75px;
+}
+#home #standings .fname, #home #standings .ficon {
+    width: 75px;
+}
+#fantasy_confidence_pool .franchiseicon, #nfl_survivor_pool .franchiseicon, #nfl_confidence_pool .franchiseicon, #power_rank .franchiseicon, #transactions .franchiseicon, #weekly_summary .franchiseicon, #avg_draft_time .franchiseicon, #body_options_20 .report .franchiseicon, #next_weeks_fantasy_schedule .franchiseicon {
+    width: 75px;
+}
+#fantasy_confidence_pool th:first-of-type, #nfl_survivor_pool th:first-of-type, #nfl_confidence_pool th:first-of-type, #power_rank th:first-of-type, #transactions td.rank + td, #weekly_summary th:first-of-type, #avg_draft_time th:first-of-type, #body_options_20 th:first-of-type {
+    width: 150px;
+}
+.defending-champ > a > .franchiseicon { height: auto; width: 100px; }
+}
+
+.franchiseicon {
+     opacity: 1;
+     transition: opacity 1s ease 0s;}
+
+.franchiseicon:hover {
+     opacity: 0.8;
+     transition: opacity 1s ease 0s;}
+
+
+
+/*   BOOT STRAP XL17
+======================================= */
+
+
+[class*=col-] {
+  transition: all .25s ease;
+}
+* {
+    transition: color 0.6s ease 0s;
+}
+
+@media (max-width: 767px) {
+  .mobile-scroll-wrapper {
+    max-width: 100%;
+    overflow-x: auto;
+   -webkit-overflow-scrolling: touch;}}
+
+@media (max-width: 767px) {
+  .mobile-wrap {
+    max-width: 100%;
+    overflow-x: auto;
+   -webkit-overflow-scrolling: touch;}}
+
+
+
+
+
+
+/*behave like a two column bootstrap layout*/
+td.two_column_layout {
+  width: 100%;
+  float: left;
+}
+
+@media (min-width: 992px) {
+  td.two_column_layout {
+    padding: 15px;
+  }
+}
+
+@media (min-width: 992px) {
+  td.two_column_layout {
+    width: 50%;
+  }
+  #single_roster td.two_column_layout {
+    width: 100%;
+  }
+}
+
+td.two_column_layout table {
+  width: 100%;
+}
+
+table.two_column_layout {
+  width: 100%;
+}
+
+@media (min-width: 992px) {
+  table.two_column_layout {
+    margin-left: -15px;
+    margin-right: -15px;
+  }
+}
+
+/*@media (max-width: 767px) {
+table.two_column_layout {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+}*/
+.section {
+  margin-bottom: 24px;
+}
+
+/*//bootstrap grid*/
+@-ms-viewport {
+  width: device-width;
+}
+
+.visible-xs,
+.visible-sm,
+.visible-md,
+.visible-lg {
+  display: none !important;
+}
+
+.visible-xs-block,
+.visible-xs-inline,
+.visible-xs-inline-block,
+.visible-sm-block,
+.visible-sm-inline,
+.visible-sm-inline-block,
+.visible-md-block,
+.visible-md-inline,
+.visible-md-inline-block,
+.visible-lg-block,
+.visible-lg-inline,
+.visible-lg-inline-block {
+  display: none !important;
+}
+
+@media (max-width: 767px) {
+  .visible-xs {
+    display: block !important;
+  }
+  table.visible-xs {
+    display: table;
+  }
+  tr.visible-xs {
+    display: table-row !important;
+  }
+  th.visible-xs,
+  td.visible-xs {
+    display: table-cell !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .visible-xs-block {
+    display: block !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .visible-xs-inline {
+    display: inline !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .visible-xs-inline-block {
+    display: inline-block !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .visible-sm {
+    display: block !important;
+  }
+  table.visible-sm {
+    display: table;
+  }
+  tr.visible-sm {
+    display: table-row !important;
+  }
+  th.visible-sm,
+  td.visible-sm {
+    display: table-cell !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .visible-sm-block {
+    display: block !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .visible-sm-inline {
+    display: inline !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .visible-sm-inline-block {
+    display: inline-block !important;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .visible-md {
+    display: block !important;
+  }
+  table.visible-md {
+    display: table;
+  }
+  tr.visible-md {
+    display: table-row !important;
+  }
+  th.visible-md,
+  td.visible-md {
+    display: table-cell !important;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .visible-md-block {
+    display: block !important;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .visible-md-inline {
+    display: inline !important;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .visible-md-inline-block {
+    display: inline-block !important;
+  }
+}
+
+
+@media (min-width: 768px) {
+  #body_top .container.page-wrapper {
+    width: 750px;
+  }
+}
+
+@media (min-width: 992px) {
+  #body_top .container.page-wrapper {
+    width: 970px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #body_top .container.page-wrapper {
+    width: 1170px;
+  }
+}
+
+@media (min-width: 1400px) {
+  #body_top .container.page-wrapper {
+    width: 1370px;
+  }
+}
+
+
+
+@media (min-width: 1200px) {
+  .visible-lg {
+    display: block !important;
+  }
+  table.visible-lg {
+    display: table;
+  }
+  tr.visible-lg {
+    display: table-row !important;
+  }
+  th.visible-lg,
+  td.visible-lg {
+    display: table-cell !important;
+  }
+}
+
+@media (min-width: 1200px) {
+  .visible-lg-block {
+    display: block !important;
+  }
+}
+
+@media (min-width: 1200px) {
+  .visible-lg-inline {
+    display: inline !important;
+  }
+}
+
+@media (min-width: 1200px) {
+  .visible-lg-inline-block {
+    display: inline-block !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .hidden-xs {
+    display: none !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .hidden-sm {
+    display: none !important;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .hidden-md {
+    display: none !important;
+  }
+}
+
+@media (min-width: 1200px) {
+  .hidden-lg {
+    display: none !important;
+  }
+}
+
+.visible-print {
+  display: none !important;
+}
+
+@media print {
+  .visible-print {
+    display: block !important;
+  }
+  table.visible-print {
+    display: table;
+  }
+  tr.visible-print {
+    display: table-row !important;
+  }
+  th.visible-print,
+  td.visible-print {
+    display: table-cell !important;
+  }
+}
+
+.visible-print-block {
+  display: none !important;
+}
+
+@media print {
+  .visible-print-block {
+    display: block !important;
+  }
+}
+
+.visible-print-inline {
+  display: none !important;
+}
+
+@media print {
+  .visible-print-inline {
+    display: inline !important;
+  }
+}
+
+.visible-print-inline-block {
+  display: none !important;
+}
+
+@media print {
+  .visible-print-inline-block {
+    display: inline-block !important;
+  }
+}
+
+@media print {
+  .hidden-print {
+    display: none !important;
+  }
+}
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+
+.container-fluid {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;}
+
+.row {
+  margin-left: -15px;
+  margin-right: -15px;}
+
+.col,
+.col-xs-1,
+.col-sm-1,
+.col-md-1,
+.col-lg-1,
+.col-xs-2,
+.col-sm-2,
+.col-md-2,
+.col-lg-2,
+.col-xs-3,
+.col-sm-3,
+.col-md-3,
+.col-lg-3,
+.col-xs-4,
+.col-sm-4,
+.col-md-4,
+.col-lg-4,
+.col-xs-5,
+.col-sm-5,
+.col-md-5,
+.col-lg-5,
+.col-xs-6,
+.col-sm-6,
+.col-md-6,
+.col-lg-6,
+.col-xs-7,
+.col-sm-7,
+.col-md-7,
+.col-lg-7,
+.col-xs-8,
+.col-sm-8,
+.col-md-8,
+.col-lg-8,
+.col-xs-9,
+.col-sm-9,
+.col-md-9,
+.col-lg-9,
+.col-xs-10,
+.col-sm-10,
+.col-md-10,
+.col-lg-10,
+.col-xs-11,
+.col-sm-11,
+.col-md-11,
+.col-lg-11,
+.col-xs-12,
+.col-sm-12,
+.col-md-12,
+.col-lg-12 {
+  position: relative;
+  min-height: 1px;
+  padding-left: 7px;
+  padding-right: 25px;
+}
+
+.col,
+.col-xs-1,
+.col-xs-2,
+.col-xs-3,
+.col-xs-4,
+.col-xs-5,
+.col-xs-6,
+.col-xs-7,
+.col-xs-8,
+.col-xs-9,
+.col-xs-10,
+.col-xs-11,
+.col-xs-12 {
+  float: left;}
+
+.col-xs-12 {
+  width: 100%;}
+
+.col-xs-11 {
+  width: 91.66666667%;}
+
+.col-xs-10 {
+  width: 83.33333333%;}
+
+.col-xs-9 {
+  width: 75%;}
+
+.col-xs-8 {
+  width: 66.66666667%;}
+
+.col-xs-7 {
+  width: 58.33333333%;}
+
+.col-xs-6 {
+  width: 50%;}
+
+.col-xs-5 {
+  width: 41.66666667%;}
+
+.col-xs-4 {
+  width: 33.33333333%;}
+
+.col-xs-3 {
+  width: 25%;}
+
+.col-xs-2 {
+  width: 16.66666667%;}
+
+.col-xs-1 {
+  width: 8.33333333%;}
+
+.col-xs-pull-12 {
+  right: 100%;}
+
+.col-xs-pull-11 {
+  right: 91.66666667%;}
+
+.col-xs-pull-10 {
+  right: 83.33333333%;}
+
+.col-xs-pull-9 {
+  right: 75%;}
+
+.col-xs-pull-8 {
+  right: 66.66666667%;}
+
+.col-xs-pull-7 {
+  right: 58.33333333%;}
+
+.col-xs-pull-6 {
+  right: 50%;}
+
+.col-xs-pull-5 {
+  right: 41.66666667%;}
+
+.col-xs-pull-4 {
+  right: 33.33333333%;}
+
+.col-xs-pull-3 {
+  right: 25%;}
+
+.col-xs-pull-2 {
+  right: 16.66666667%;}
+
+.col-xs-pull-1 {
+  right: 8.33333333%;}
+
+.col-xs-pull-0 {
+  right: auto;}
+
+.col-xs-push-12 {
+  left: 100%;}
+
+.col-xs-push-11 {
+  left: 91.66666667%;}
+
+.col-xs-push-10 {
+  left: 83.33333333%;}
+
+.col-xs-push-9 {
+  left: 75%;}
+
+.col-xs-push-8 {
+  left: 66.66666667%;}
+
+.col-xs-push-7 {
+  left: 58.33333333%;}
+
+.col-xs-push-6 {
+  left: 50%;}
+
+.col-xs-push-5 {
+  left: 41.66666667%;}
+
+.col-xs-push-4 {
+  left: 33.33333333%;}
+
+.col-xs-push-3 {
+  left: 25%;}
+
+.col-xs-push-2 {
+  left: 16.66666667%;}
+
+.col-xs-push-1 {
+  left: 8.33333333%;}
+
+.col-xs-push-0 {
+  left: auto;}
+
+.col-xs-offset-12 {
+  margin-left: 100%;}
+
+.col-xs-offset-11 {
+  margin-left: 91.66666667%;}
+
+.col-xs-offset-10 {
+  margin-left: 83.33333333%;}
+
+.col-xs-offset-9 {
+  margin-left: 75%;}
+
+.col-xs-offset-8 {
+  margin-left: 66.66666667%;}
+
+.col-xs-offset-7 {
+  margin-left: 58.33333333%;}
+
+.col-xs-offset-6 {
+  margin-left: 50%;}
+
+.col-xs-offset-5 {
+  margin-left: 41.66666667%;}
+
+.col-xs-offset-4 {
+  margin-left: 33.33333333%;}
+
+.col-xs-offset-3 {
+  margin-left: 25%;}
+
+.col-xs-offset-2 {
+  margin-left: 16.66666667%;}
+
+.col-xs-offset-1 {
+  margin-left: 8.33333333%;}
+
+.col-xs-offset-0 {
+  margin-left: 0%;}
+
+@media (min-width: 768px) {
+  .col,
+  .col-sm-1,
+  .col-sm-2,
+  .col-sm-3,
+  .col-sm-4,
+  .col-sm-5,
+  .col-sm-6,
+  .col-sm-7,
+  .col-sm-8,
+  .col-sm-9,
+  .col-sm-10,
+  .col-sm-11,
+  .col-sm-12 {
+    float: left;
+  }
+  .col-sm-12 {
+    width: 100%;
+  }
+  .col-sm-11 {
+    width: 91.66666667%;
+  }
+  .col-sm-10 {
+    width: 83.33333333%;
+  }
+  .col-sm-9 {
+    width: 75%;
+  }
+  .col-sm-8 {
+    width: 66.66666667%;
+  }
+  .col-sm-7 {
+    width: 75%;
+  }
+  .col-sm-6 {
+    width: 50%;
+  }
+  
+  .col-sm-5 {
+    width: 25%;
+  }
+  .col-sm-4 {
+    width: 33.33333333%;
+  }
+  .col-sm-3 {
+    width: 25%;
+  }
+  .col-sm-2 {
+    width: 16.66666667%;
+  }
+  .col-sm-1 {
+    width: 8.33333333%;
+  }
+  .col-sm-pull-12 {
+    right: 100%;
+  }
+  .col-sm-pull-11 {
+    right: 91.66666667%;
+  }
+  .col-sm-pull-10 {
+    right: 83.33333333%;
+  }
+  .col-sm-pull-9 {
+    right: 75%;
+  }
+  .col-sm-pull-8 {
+    right: 66.66666667%;
+  }
+  .col-sm-pull-7 {
+    right: 58.33333333%;
+  }
+  .col-sm-pull-6 {
+    right: 50%;
+  }
+  .col-sm-pull-5 {
+    right: 41.66666667%;
+  }
+  .col-sm-pull-4 {
+    right: 33.33333333%;
+  }
+  .col-sm-pull-3 {
+    right: 25%;
+  }
+  .col-sm-pull-2 {
+    right: 16.66666667%;
+  }
+  .col-sm-pull-1 {
+    right: 8.33333333%;
+  }
+  .col-sm-pull-0 {
+    right: auto;
+  }
+  .col-sm-push-12 {
+    left: 100%;
+  }
+  .col-sm-push-11 {
+    left: 91.66666667%;
+  }
+  .col-sm-push-10 {
+    left: 83.33333333%;
+  }
+  .col-sm-push-9 {
+    left: 75%;
+  }
+  .col-sm-push-8 {
+    left: 66.66666667%;
+  }
+  .col-sm-push-7 {
+    left: 58.33333333%;
+  }
+  .col-sm-push-6 {
+    left: 50%;
+  }
+  .col-sm-push-5 {
+    left: 41.66666667%;
+  }
+  .col-sm-push-4 {
+    left: 33.33333333%;
+  }
+  .col-sm-push-3 {
+    left: 25%;
+  }
+  .col-sm-push-2 {
+    left: 16.66666667%;
+  }
+  .col-sm-push-1 {
+    left: 8.33333333%;
+  }
+  .col-sm-push-0 {
+    left: auto;
+  }
+  .col-sm-offset-12 {
+    margin-left: 100%;
+  }
+  .col-sm-offset-11 {
+    margin-left: 91.66666667%;
+  }
+  .col-sm-offset-10 {
+    margin-left: 83.33333333%;
+  }
+  .col-sm-offset-9 {
+    margin-left: 75%;
+  }
+  .col-sm-offset-8 {
+    margin-left: 66.66666667%;
+  }
+  .col-sm-offset-7 {
+    margin-left: 58.33333333%;
+  }
+  .col-sm-offset-6 {
+    margin-left: 50%;
+  }
+  .col-sm-offset-5 {
+    margin-left: 41.66666667%;
+  }
+  .col-sm-offset-4 {
+    margin-left: 33.33333333%;
+  }
+  .col-sm-offset-3 {
+    margin-left: 25%;
+  }
+  .col-sm-offset-2 {
+    margin-left: 16.66666667%;
+  }
+  .col-sm-offset-1 {
+    margin-left: 8.33333333%;
+  }
+  .col-sm-offset-0 {
+    margin-left: 0%;
+  }
+}
+
+@media (min-width: 992px) {
+  .col,
+  .col-md-1,
+  .col-md-2,
+  .col-md-3,
+  .col-md-4,
+  .col-md-5,
+  .col-md-6,
+  .col-md-7,
+  .col-md-8,
+  .col-md-9,
+  .col-md-10,
+  .col-md-11,
+  .col-md-12 {
+    float: left;
+  }
+  .col-md-12 {
+    width: 100%;
+  }
+  .col-md-11 {
+    width: 91.66666667%;
+  }
+  .col-md-10 {
+    width: 83.33333333%;
+  }
+  .col-md-9 {
+    width: 75%;
+  }
+  .col-md-8 {
+    width: 66.66666667%;
+  }
+  .col-md-7 {
+    width: 58.33333333%;
+  }
+  .col-md-6 {
+    width: 55%;
+  }
+  .col-md-5 {
+    width: 41.66666667%;
+  }
+  .col-md-4 {
+    width: 33.33333333%;
+  }
+  .col-md-3 {
+    width: 25%;
+  }
+  .col-md-2 {
+    width: 16.66666667%;
+  }
+  .col-md-1 {
+    width: 8.33333333%;
+  }
+  .col-md-pull-12 {
+    right: 100%;
+  }
+  .col-md-pull-11 {
+    right: 91.66666667%;
+  }
+  .col-md-pull-10 {
+    right: 83.33333333%;
+  }
+  .col-md-pull-9 {
+    right: 75%;
+  }
+  .col-md-pull-8 {
+    right: 66.66666667%;
+  }
+  .col-md-pull-7 {
+    right: 58.33333333%;
+  }
+  .col-md-pull-6 {
+    right: 50%;
+  }
+  .col-md-pull-5 {
+    right: 41.66666667%;
+  }
+  .col-md-pull-4 {
+    right: 33.33333333%;
+  }
+  .col-md-pull-3 {
+    right: 25%;
+  }
+  .col-md-pull-2 {
+    right: 16.66666667%;
+  }
+  .col-md-pull-1 {
+    right: 8.33333333%;
+  }
+  .col-md-pull-0 {
+    right: auto;
+  }
+  .col-md-push-12 {
+    left: 100%;
+  }
+  .col-md-push-11 {
+    left: 91.66666667%;
+  }
+  .col-md-push-10 {
+    left: 83.33333333%;
+  }
+  .col-md-push-9 {
+    left: 75%;
+  }
+  .col-md-push-8 {
+    left: 66.66666667%;
+  }
+  .col-md-push-7 {
+    left: 58.33333333%;
+  }
+  .col-md-push-6 {
+    left: 50%;
+  }
+  .col-md-push-5 {
+    left: 41.66666667%;
+  }
+  .col-md-push-4 {
+    left: 33.33333333%;
+  }
+  .col-md-push-3 {
+    left: 25%;
+  }
+  .col-md-push-2 {
+    left: 16.66666667%;
+  }
+  .col-md-push-1 {
+    left: 8.33333333%;
+  }
+  .col-md-push-0 {
+    left: auto;
+  }
+  .col-md-offset-12 {
+    margin-left: 100%;
+  }
+  .col-md-offset-11 {
+    margin-left: 91.66666667%;
+  }
+  .col-md-offset-10 {
+    margin-left: 83.33333333%;
+  }
+  .col-md-offset-9 {
+    margin-left: 75%;
+  }
+  .col-md-offset-8 {
+    margin-left: 66.66666667%;
+  }
+  .col-md-offset-7 {
+    margin-left: 58.33333333%;
+  }
+  .col-md-offset-6 {
+    margin-left: 50%;
+  }
+  .col-md-offset-5 {
+    margin-left: 41.66666667%;
+  }
+  .col-md-offset-4 {
+    margin-left: 33.33333333%;
+  }
+  .col-md-offset-3 {
+    margin-left: 25%;
+  }
+  .col-md-offset-2 {
+    margin-left: 16.66666667%;
+  }
+  .col-md-offset-1 {
+    margin-left: 8.33333333%;
+  }
+  .col-md-offset-0 {
+    margin-left: 0%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .col,
+  .col-lg-1,
+  .col-lg-2,
+  .col-lg-3,
+  .col-lg-4,
+  .col-lg-5,
+  .col-lg-6,
+  .col-lg-7,
+  .col-lg-8,
+  .col-lg-9,
+  .col-lg-10,
+  .col-lg-11,
+  .col-lg-12 {
+    float: left;
+  }
+  .col-lg-12 {
+    width: 100%;
+  }
+  .col-lg-11 {
+    width: 91.66666667%;
+  }
+  .col-lg-10 {
+    width: 83.33333333%;
+  }
+  .col-lg-9 {
+    width: 75%;
+  }
+  .col-lg-8 {
+    width: 66.66666667%;
+  }
+  .col-lg-7 {
+    width: 58.33333333%;
+  }
+  .col-lg-6 {
+    width: 50%;
+  }
+  .col-lg-5 {
+    width: 41.66666667%;
+  }
+  .col-lg-4 {
+    width: 33.33333333%;
+  }
+  .col-lg-3 {
+    width: 25%;
+  }
+  .col-lg-2 {
+    width: 16.66666667%;
+  }
+  .col-lg-1 {
+    width: 8.33333333%;
+  }
+  .col-lg-pull-12 {
+    right: 100%;
+  }
+  .col-lg-pull-11 {
+    right: 91.66666667%;
+  }
+  .col-lg-pull-10 {
+    right: 83.33333333%;
+  }
+  .col-lg-pull-9 {
+    right: 75%;
+  }
+  .col-lg-pull-8 {
+    right: 66.66666667%;
+  }
+  .col-lg-pull-7 {
+    right: 58.33333333%;
+  }
+  .col-lg-pull-6 {
+    right: 50%;
+  }
+  .col-lg-pull-5 {
+    right: 41.66666667%;
+  }
+  .col-lg-pull-4 {
+    right: 33.33333333%;
+  }
+  .col-lg-pull-3 {
+    right: 25%;
+  }
+  .col-lg-pull-2 {
+    right: 16.66666667%;
+  }
+  .col-lg-pull-1 {
+    right: 8.33333333%;
+  }
+  .col-lg-pull-0 {
+    right: auto;
+  }
+  .col-lg-push-12 {
+    left: 100%;
+  }
+  .col-lg-push-11 {
+    left: 91.66666667%;
+  }
+  .col-lg-push-10 {
+    left: 83.33333333%;}
+  .col-lg-push-9 {
+    left: 75%;}
+  .col-lg-push-8 {
+    left: 66.66666667%;}
+  .col-lg-push-7 {
+    left: 58.33333333%;}
+  .col-lg-push-6 {
+    left: 50%;}
+  .col-lg-push-5 {
+    left: 41.66666667%;}
+  .col-lg-push-4 {
+    left: 33.33333333%;}
+  .col-lg-push-3 {
+    left: 25%;}
+  .col-lg-push-2 {
+    left: 16.66666667%;}
+  .col-lg-push-1 {
+    left: 8.33333333%;}
+  .col-lg-push-0 {
+    left: auto;}
+  .col-lg-offset-12 {
+    margin-left: 100%;}
+  .col-lg-offset-11 {
+    margin-left: 91.66666667%;}
+  .col-lg-offset-10 {
+    margin-left: 83.33333333%;}
+  .col-lg-offset-9 {
+    margin-left: 75%;}
+  .col-lg-offset-8 {
+    margin-left: 66.66666667%;}
+  .col-lg-offset-7 {
+    margin-left: 58.33333333%;}
+  .col-lg-offset-6 {
+    margin-left: 50%;}
+  .col-lg-offset-5 {
+    margin-left: 41.66666667%;}
+  .col-lg-offset-4 {
+    margin-left: 33.33333333%;}
+  .col-lg-offset-3 {
+    margin-left: 25%;}
+  .col-lg-offset-2 {
+    margin-left: 16.66666667%;}
+  .col-lg-offset-1 {
+    margin-left: 8.33333333%;}
+  .col-lg-offset-0 {
+    margin-left: 0%; }}
+
+.clearfix,
+.clearfix:before,
+.clearfix:after,
+.container:before,
+.container:after,
+.container-fluid:before,
+.container-fluid:after,
+.row:before,
+.row:after {
+  content: " ";
+  display: table;}
+
+.clearfix:after,
+.container:after,
+.container-fluid:after,
+.row:after {
+  clear: both;}
+
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;}
+
+.pull-right {
+  float: right !important;}
+
+.pull-left {
+  float: left !important;}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.row {
+  margin-left: -15px;
+  margin-right: -15px;
+  clear: both;
+}
+
+
+.container-header {
+    background: rgba(27, 27, 27, 0.9) none repeat scroll 0 0;
+    border-bottom: 8px solid #ceb274 !important;
+    box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.1);
+    margin-bottom: 24px;box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.75);
+    padding: 20px 0;
+}
+
+
+
+@media (min-width: 767px) {
+  .league_logo svg {
+    width: 90px;
+    height: 100px;}}
+
+@media (max-width: 767px) {
+  .league_logo svg {
+    margin: 0 auto 12px;}}
+
+.league_logo {
+     float: left;margin:0 15px 0px;}
+
+@media (min-width: 992px) {
+  .leaguename {
+    font-size: 46px;
+    padding: 24px 24px;
+    margin: 0;}}
+
+@media (max-width: 425px) {
+  .leaguename { margin: 0px; font-size: 24px ! important; }
+  .league_logo {
+    float: left;
+    margin: 0px;}
+div.col-md-6.col-lg-5 > div#league_logo.league_logo > div#logo > a > img {
+     height: auto;
+     margin: 0px 0px -30px auto;
+    max-width: 300px;}}
+
+
+@media (min-width: 768px) and (max-width: 1200px) {
+.nav_buttons {
+    margin: 10 -10px;
+    padding: 0;
+    position: relative;
+    top: 4px;}}
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .nav_buttons { margin: 0px -2px; padding: 0px; position: relative; top: 0px; }
+}
+
+@media (min-width: 796px) and (max-width: 966px) {
+  .nav_buttons { margin: 0px -35px; padding: 0px; position: relative; top: -4px; }
+}
+
+@media (max-width: 767px) {
+  .nav_wrapper {
+    max-width: 100%;
+    overflow-x: scroll;
+   -webkit-overflow-scrolling: touch;
+    margin-bottom:-8px;}}
+
+@media (max-width: 767px) {
+  .nav_buttons {
+    min-width: 580px;}}
+
+/**
+@media (min-width: 992px) {
+.nav_buttons {
+    margin: 0 -20px;
+    padding: 4px 0;}}**/
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .nav_buttons {
+    padding: 0px 0px 0px;
+    position: relative;
+    top: 10px;
+    margin: 0 -30px;}}
+
+.nav_button--button {
+  display: inline-block;
+  padding: 0 15px 0 0;
+  margin-bottom: 0px;}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .nav_button--button {
+    display: inline-block;
+    margin: 0 auto;
+    padding: 0 29px 0;
+    margin-bottom: 10px;}}
+
+@media (min-width: 992px) {
+  .nav_button--button {
+    margin-left: 6px;
+    padding-right: 1px;}
+
+  .nav_button--button svg {
+    width: 36px;
+    height: 36px;}}
+
+@media (min-width: 1200px) {
+  .nav_button--button {
+    margin-left: 24px;}
+
+  .nav_button--button svg {
+    width: 38px;
+    height: 38px;}}
+
+.nav_button--button:first-child {
+  margin-left: 0;}
+
+.nav_buttons .svg-text {
+  font-size: 10px;
+  text-align: center;}
+
+.nav_buttons a {
+  text-decoration: none;}
+
+/**
+#logo {
+     margin: -15px auto 20px;}**/
+
+ div#league_logo.league_logo > div#logo > a > img {
+    height: auto;
+    margin: 0px 0px -30px 0px;
+    max-width: 300px;} 
+
+ div.col-md-12 > div#banner > a > img.img-responsive {
+    margin: -15px auto 0px 0px;
+    display: block;
+    max-width: 100%;
+    height: auto;} 
+
+
+.leaguename {
+    color: #ccc;
+    font-family: "Oswald";}
+span.leaguename--t1break {
+    color: #ceb274;}
+span.leaguename--test {
+    color: #444;font-size:;}
+span.leaguename--site {
+    color: #ceb274;
+}span.leaguename--the {
+    padding-right: 5px;
+}
+span.leaguename--site {
+    font-size: ;
+}
+.leaguename {
+    float: left;
+    font-size: 35px;
+    padding: 20px 0;
+    position: relative;
+    z-index: 100;}
+
+
+
+.container-footer a {
+    color: #aaa;
+    font-size: 10.4pt;
+    text-decoration: none;
+}
+
+.container-footer a:hover {
+    color: #fff;
+    font-size: 10.4pt;
+    text-decoration: underline !important;
+}
+
+
+.container-footer ul {
+     margin-bottom: 12px;
+      margin-left: -12px;}
+
+.container-footer ul li {
+     list-style-type: none;text-transform: uppercase;
+     font-size: 12pt;color: #fff;
+     margin-left: 0;}
+
+.container-footer .defending-champ {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 24px;
+    text-transform: uppercase;
+}
+
+.container-footer {
+     background: rgba(27, 27, 27, 0.9) none repeat scroll 0 0;
+     border-top: 8px solid rgba(206, 178, 116, 0.9) !important;
+    margin-top: 24px;}
+
+
+
+span#footer-bottom {
+    display: block;
+    margin-bottom: 15px;}
+
+
+.row-sm-1  {margin-top:12px;}
+div.row-sm-1 > div.col-sm-5 {
+    margin-top: 10px;}
+
+#contentframe {
+ min-height: 800px;}
+
+#hsubmenu {
+    max-width: 100%;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+
+@media all and (max-width: 420px) {
+  #championship_plaque h2 { background-image: url("https://i.imgur.com/6GGaPqz.png"); }
+}
+
+@media (max-width: 976px) {
+  .row-sm-1 { display: flex; flex-flow: row wrap; }
+  .container-footer ul { margin-left: -55px; width:150px}
+  .row-sm-1 > div.col-sm-31 { margin: 0px auto 0px 16px; }}
+
+
+
+
+/***TICKER***/
+.tickerinnertable {}
+
+.tickerheader {}
+
+.tickerteam { padding: 8px 0px 0px 4px;}
+
+.tickerclock {}
+
+.tickerspread {}
+
+.tickerscore {}
+
+.tickericon {
+     height: auto;
+     padding: 4px 0px 0px 6px;
+     width: 175px;}
+
+.habFranchiseIcon { max-width: 175px; max-height: 50px; }
+
+
+
+.habFranchiseIcon {
+     opacity: 1;
+     transition: opacity 1s ease 0s;}
+
+.habFranchiseIcon:hover {
+     opacity: 0.7;
+     transition: opacity 1s ease 0s;}
+
+div#ticker > table.tickerinnertable > tbody > tr > td.tickerclock > a.tickerclock:hover {color:#66a4ea}
+
+.tickerscore {
+    color: #66a4ea;
+    font-size: 17px !important;
+    font-weight: 400 !important;
+    padding: 8px 27px 0!important;}
+
+table#livescoring_summary.homepagemodule.report > tbody > tr.oddtablerow > td > div#ticker > table.tickerinnertable > tbody > tr > td.tickerteam {
+     background-color: rgba(0, 0, 0, 0) ! important;
+     border: medium none;
+    box-shadow: none;}
+ table#livescoring_summary.homepagemodule.report > tbody > tr.oddtablerow > td > div#ticker > table.tickerinnertable > tbody > tr > td.tickerscore {
+     background-color: rgba(0, 0, 0, 0) ! important;
+     border: medium none;
+     box-shadow: none;}
+
+ div#ticker > table.tickerinnertable > tbody > tr > td.tickerclock {
+     background-color: rgba(0, 0, 0, 0) ! important;
+     border: medium none;
+     box-shadow: none;padding-top:10px!important;}
+
+
+
+.notification-message {
+    background-color: rgba(30, 30, 30, 0.99);
+    background-image: url("https://i.imgur.com/wCOCahS.png");
+    background-origin: padding-box;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 6px solid #333;
+    border-top: 6px solid #333;
+    box-shadow: 0 0 20px 4px rgba(0, 0, 0, 0.75) !important;
+    color: #eee;
+    height: 70px;
+    margin-top: 0;
+    padding: 8px;
+    text-align: center;
+}
+
+
+
+#notification-bar-container {
+     position: relative ! important;
+     text-align: center;
+     z-index: 999999 ! important;}
+
+#notification-bar0 {
+     height: 56px ! important;}
+
+
+/* iPads (portrait and landscape) ----------- */
+@media (min-width: 425px) and (max-width: 1200px) {
+  #nav { width: 976px!important; }
+  .nav_buttons {top:0px;}
+.nav_buttons {margin: 8px -35px 0 -15px;}
+.nav_button--button {padding: 0px!important;margin:0px!important;}
+  #nav li { max-width: 976px; width: 9%!important; }}
+
+@media (max-width: 976px) {
+  .nav_wrapper {
+    max-width: 100%;
+    overflow-x: scroll;
+   -webkit-overflow-scrolling: touch;}}
+
+
+
+@media only screen and (max-width: 35.5em) {
+  .notification-message { font-size: 25px !important; }
+}
+
+
+.hideShowAssets {
+    cursor: pointer;color:#f60000;}
+.hideShowAssets:hover{
+    cursor: pointer;color:#fff!important;text-decoration: underline!important;}
+#standings .fname {
+    width: 300px;}
