@@ -18,14 +18,14 @@
 /* bg coloring for table rows inside each table that display Select x amount of players */
 
 #lineup .report .toomany {
-    background: #c71429;
+    background: #f27382;
 }
 
 
 /* light shaded red when player limit exceeded */
 
 #lineup .report .notenough {
-    background: #c71429;
+    background: #f27382;
 }
 
 
