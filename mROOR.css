@@ -2416,3 +2416,15 @@ body#body_options_170 .container.page-wrapper form > table.report  td > select {
 img {
 image-rendering: -webkit-optimize-contrast;
 image-rendering: optimize-contrast;}
+
+/*   REMOVE MFL ADS
+======================= */
+
+#body_news_articles td.timestamp + td,
+#body_news_articles th.timestamp + th,
+#body_view_news_article .report div[style="float: right;"],
+#body_player table div,
+#body_live_scoring_summary div[align="center"],
+#body_live_scoring div[align="center"],#body_view_news_article object {
+     display: none!important;
+}
