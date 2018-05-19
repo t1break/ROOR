@@ -713,7 +713,7 @@ tr.myfranchise {
 }
 
 a.myfranchise,a.myfranchise:link,a.myfranchise:visited,a.myfranchise:active {
-    
+        color: #ffffff;
      text-transform:uppercase;
 }
 
