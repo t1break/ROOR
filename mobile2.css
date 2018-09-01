@@ -67,12 +67,12 @@ img.ava {
     width: 75px;
 }
 #standings .franchiseicon {
-    width: 75px;
+    width: 100px;
 }
 #standings .fname, #standings .ficon {
     width: 75px;
 }
-#home #standings .franchiseicon, #roster .franchiseicon {
+#home  .franchiseicon, #roster .franchiseicon {
     width: 75px;
 }
 #home #standings .fname, #home #standings .ficon {
