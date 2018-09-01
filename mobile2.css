@@ -67,7 +67,7 @@ img.ava {
     width: 75px;
 }
 #standings .franchiseicon {
-    width: 100px;
+    width: 100px !important;
 }
 #standings .fname, #standings .ficon {
     width: 75px;
